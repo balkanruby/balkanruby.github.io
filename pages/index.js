@@ -54,17 +54,6 @@ export default () => (
       <Navigation {...NAV} />
     </Container>
 
-    <br/>
-    <br/>
-
-    <SectionTitle title="About the conference" />
-
-    <br/>
-
-    <Text centered text="<p>Balkan Ruby is a brand new conference, dedicated to Ruby and satellite technologies.</p><p>We aim to introduce the local communities to each other and invite companies and developers from all over Europe to visit the Balkan region, learn new technologies and share ideas with us.</p>" />
-
-    <br/>
-
     <Container id="speakers" theme="blank" spacing="spacing-both" container>
       <div className="container">
         <div className="grid">
