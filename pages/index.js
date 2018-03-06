@@ -7,6 +7,7 @@ import SectionTitle from '../patterns/SectionTitle';
 import Speaker from '../patterns/Speaker';
 import Speakers from '../patterns/Speakers';
 import Navigation from '../patterns/Navigation';
+import Newsletter from '../patterns/Newsletter';
 import store from '../store';
 
 const NAV = {
@@ -189,48 +190,6 @@ export default () => (
       </div>
     </Container>
 
-    <Container theme="purple-bg" spacing="none">
-      <div className="newsletter">
-        <form
-          action="//balkanruby.us16.list-manage.com/subscribe/post?u=690a4f9d71c3a29f39792b453&amp;id=d13d0bd575"
-          method="post"
-          id="mc-embedded-subscribe-form"
-          name="mc-embedded-subscribe-form"
-          className="validate"
-          target="_blank"
-          noValidate=""
-        >
-          <div className="form-group">
-            <input
-              type="email"
-              value=""
-              name="EMAIL"
-              className="required email"
-              id="mce-EMAIL"
-              placeholder="you@awesome.conf"
-            />
-          </div>
-          <div
-            style={{ position: 'absolute', left: '-5000px' }}
-            aria-hidden="true"
-          >
-            <input
-              type="text"
-              name="b_690a4f9d71c3a29f39792b453_d13d0bd575"
-              tabIndex="-1"
-              value=""
-            />
-          </div>
-          <button
-            type="submit"
-            value="Subscribe"
-            name="subscribe"
-            className="btn-primary"
-          >
-            Subscribe
-          </button>
-        </form>
-      </div>
-    </Container>
+    <Newsletter />
   </Layout>
 );
