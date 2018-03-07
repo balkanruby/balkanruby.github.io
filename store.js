@@ -207,7 +207,7 @@ const store = {
           Radoslav is a web developer for more than a decade. He believes that
           frontend and backend are equally important. In the last several years
           he juggles between Ruby and JavaScript projects. Organizer of
-          <React.NotAConf />. Currently works at Product Hunt.
+          &lt;React.NotAConf /&gt;. Currently works at Product Hunt.
         </p>
       `,
       talk: 'How to get to zero unhandled exceptions in production',
