@@ -1,12 +1,12 @@
 const Thumb = ({ title, description, link, image }) => (
   <div className="partner grid">
     <div className="third">
-      <a href={link} className="partner-logo"><img src={image} alt={title} /></a>
+      <a href={link} className="partner-logo" target="_blank"><img src={image} alt={title}/></a>
     </div>
     <div className="eight">
       <h3>{title}</h3>
       <div className="meta">
-        <a href={link}>{link}</a>
+        <a href={link} target="_blank">{link}</a>
       </div>
 
       <div dangerouslySetInnerHTML={{ __html: description }} />
