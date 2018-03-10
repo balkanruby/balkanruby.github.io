@@ -1,7 +1,9 @@
 const Thumb = ({ title, description, link, image }) => (
   <div className="partner grid">
     <div className="third">
-      <a href={link} className="partner-logo" target="_blank"><img src={image} alt={title}/></a>
+      <a href={link} className="partner-logo" target="_blank">
+        <img src={image} alt={title}/>
+      </a>
     </div>
     <div className="eight">
       <h3>{title}</h3>
@@ -14,36 +16,15 @@ const Thumb = ({ title, description, link, image }) => (
   </div>
 );
 
-const PatnerFeed = ({ list }) => (
+const PatnerFeed = ({ list, type }) => (
   <div className="partner-feed">
     <div className="container">
+      <h2>{type} Partners</h2>
       {list.map((item, idx) =>
-        <Thumb key={idx} {...item} />)}
+        <Thumb key={idx} {...item} />
+      )}
     </div>
   </div>
 );
-
-PatnerFeed.defaultProps = {
-  list: [
-    {
-      image: 'https://placehold.it/400x300',
-      link: '#',
-      title: 'Article Title',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptatibus, doloribus modi perspiciatis dicta eius mollitia minus assumenda, iusto placeat culpa aliquam iure obcaecati distinctio commodi sequi vitae sapiente non.',
-    },
-    {
-      image: 'https://placehold.it/400x300',
-      link: '#',
-      title: 'Article Title',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptatibus, doloribus modi perspiciatis dicta eius mollitia minus assumenda, iusto placeat culpa aliquam iure obcaecati distinctio commodi sequi vitae sapiente non.',
-    },
-    {
-      image: 'https://placehold.it/400x300',
-      link: '#',
-      title: 'Article Title',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptatibus, doloribus modi perspiciatis dicta eius mollitia minus assumenda, iusto placeat culpa aliquam iure obcaecati distinctio commodi sequi vitae sapiente non.',
-    },
-  ],
-};
 
 export default PatnerFeed;

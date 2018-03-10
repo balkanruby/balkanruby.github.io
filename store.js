@@ -413,7 +413,92 @@ const store = {
         </p>
       `
     },
-  ]
+  ],
+
+  sponsors: {
+    pro: [
+      {
+        title: 'eMerchantPay',
+        description: `
+          <p>
+            eMerchantPay is a leading online, mobile and POS payment service
+            provider. We help e-commerce businesses of all sizes and sectors accept
+            payments via multiple customer touch points. Designed to increase conversions,
+            our offering includes robust payment processing technology, coupled with
+            popular alternative payment methods and a range of acquiring services.
+            eMerchantPay Limited is registered as an authorised Electronic Money
+            Institution (EMI) and has the FCA’s permission to issue electronic money
+            (e-money) and provide payment services under registration number <a
+            href="https://register.fca.org.uk/ShPo_FirmDetailsPage?id=001b000003jN1U9AAK">900778</a>.</p><p>We
+            are a self-funded, product-based company, and working on a number of
+            challenging (both code and infrastructure), high-uptime (99.99%) payment
+            products, utilising predominantly the Ruby and Rails stack.
+          </p>
+        `,
+        link: 'https://www.emerchantpay.com/',
+        image: '/static/images/sponsors/emerchantpay_logo.svg',
+      },
+
+      {
+        title: 'Receipt Bank',
+        description: `
+          <p>
+            Receipt Bank is an award-winning accounting software used by 30,000+ small
+            business to make bookkeeping effortless. Our automation saves them hundreds of
+            hours every year - and we’re just getting started!</p><p>We are based around
+            the globe, but our development team is mostly here in Bulgaria. We are a
+            start-up that cares deeply about high quality and sane development practices.
+            We have learned through blood and tears that the best way is almost always
+            through beautiful, easily maintained code.</p<p>We are down to earth, happy
+            Rails users and extremely proud sponsors of Balkan Ruby.
+          </p>
+        `,
+        image: '/static/images/sponsors/receipt_bank_logo.svg',
+        link: 'https://www.receipt-bank.com/',
+      },
+    ],
+
+    speaker: [
+      {
+        title: 'GitHub',
+        description: `
+          <p>
+            GitHub is a development platform inspired by the way you work. From open source
+            to business, you can host and review code, manage projects, and build software
+            alongside millions of other developers.
+          <p>
+        `,
+        link: 'https://www.emerchantpay.com/',
+        image: '/static/images/sponsors/github_logo.png',
+      },
+      {
+        title: 'Rebased',
+        description: `
+          <p>
+            Looking for top-notch Ruby and JavaScript programmers? <br> Choose
+            world-class developers with impressive open-source record. Choose direct
+            communication over managemental overhead. Choose paying for actual work
+            done.
+          </p>
+        `,
+        image: '/static/images/sponsors/rebased_logo_full.png',
+        link: 'https://rebased.pl/',
+      },
+      {
+        title: 'RenderedText',
+        description: `
+          <p>
+            Rendered Text is a software company making <a
+            href="https://semaphoreci.com">Semaphore</a>, a continuous delivery service at
+            the forefront of an ongoing evolution in software development practice. We
+            optimize what we do for happiness of our users and ourselves.
+          </p>
+        `,
+        image: '/static/images/sponsors/renderedtext_logo.png',
+        link: 'https://renderedtext.com/',
+      },
+    ]
+  }
 };
 
 export default store;
