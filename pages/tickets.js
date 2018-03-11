@@ -1,7 +1,9 @@
 import Helmet from 'react-helmet';
 import Layout from '../layouts/Default';
 import Container from '../documentation/Container';
-import Faq from '../patterns/Faq'
+import SectionTitle from '../patterns/SectionTitle';
+import Faq from '../patterns/Faq';
+import Cta from '../patterns/Cta';
 
 const EMAIL = 'hi@balkanruby.com'
 
@@ -61,6 +63,15 @@ const FAQ = [
   }
 ];
 
+const CTA = {
+  title: 'Need more information?',
+  description: '<br />',
+  primaryLink: false,
+  primaryLabel: false,
+  secondaryLink: 'mailto:hi@balkanruby.com?subject=I+have+a+question',
+  secondaryLabel: 'Contact us',
+};
+
 export default () => (
   <Layout>
     <Helmet>
@@ -77,17 +88,15 @@ export default () => (
     </Container>
 
     <Container theme="blank" spacing="spacing-both">
-      <div className="container">
-        <h2>FAQ</h2>
-        <Faq list={FAQ} />
-      </div>
+      <SectionTitle title="FAQ" />
     </Container>
 
     <Container theme="blank" spacing="spacing-both">
-      <div className="container">
-        <h2>Need more information?</h2>
-        <a href="mailto:hi@balkanruby.com?subject=Tickets Question" className="btn-primary lg">Contact us</a>
-      </div>
+      <Faq list={FAQ} />
+    </Container>
+
+    <Container theme="light-bg" spacing="spacing-both">
+      <Cta {...CTA} />
     </Container>
   </Layout>
 );

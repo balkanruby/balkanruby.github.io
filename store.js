@@ -1,6 +1,7 @@
 const store = {
   speakers: [
     {
+      anchor: 'zach',
       image: '/static/images/speakers/holman.png',
       link: 'https://zachholman.com/',
       name: 'Zach Holman',
@@ -17,10 +18,13 @@ const store = {
         </p>
       `,
       talk: 'Keynote',
-      description: '<p>To be announced. Stay tuned!</p>',
+      description: `
+        <p>Coming soon. </p>
+      `,
     },
 
     {
+      anchor: 'robert',
       image: '/static/images/speakers/rmosolgo.png',
       link: 'https://rmosolgo.github.io/',
       name: 'Robert Mosolgo',
@@ -33,10 +37,13 @@ const store = {
         </p>
       `,
       talk: 'GraphQL',
-      description: '<p>To be announced. Stay tuned!</p>',
+      description: `
+        <p>Coming soon. </p>
+      `,
     },
 
     {
+      anchor: 'nick',
       image: '/static/images/speakers/nick.jpg',
       link: 'https://apotonick.wordpress.com/',
       name: 'Nick Sutterer',
@@ -49,10 +56,13 @@ const store = {
         </p>
       `,
       talk: 'Trailblazer',
-      description: '<p>To be announced. Stay tuned!</p>',
+      description: `
+        <p>Coming soon. </p>
+      `,
     },
 
     {
+      anchor: 'gabriela',
       image: '/static/images/speakers/gabriela.jpg',
       link: 'https://github.com/luhova',
       name: 'Gabriela Luhova',
@@ -74,10 +84,11 @@ const store = {
           fast can it be? The JSON API in the Ruby World talk will give answers to
           all of these questions and more.
         </p>
-      `
+      `,
     },
 
     {
+      anchor: 'marko',
       image: '/static/images/speakers/marko.jpg',
       link: 'https://github.com/bmarkons',
       name: 'Marko Bogdanović',
@@ -103,10 +114,11 @@ const store = {
           the project, after which we would examine together what's missing on the
           platform that needs your help.
         </p>
-      `
+      `,
     },
 
     {
+      anchor: 'dinah',
       image: '/static/images/speakers/dinah.jpg',
       link: 'https://dinahshi.github.io',
       name: 'Dinah Shi',
@@ -132,10 +144,11 @@ const store = {
           the hood. We’ll also take a peek into the future of eager loading coming
           to a Rails release near you.
         </p>
-      `
+      `,
     },
 
     {
+      anchor: 'vladimir',
       image: '/static/images/speakers/vlad.jpg',
       link: 'https://github.com/palkan',
       name: 'Vladimir Dementyev',
@@ -165,10 +178,11 @@ const store = {
           Let's me show some profiling and refactoring techniques to make our
           tests healed!
         </p>
-      `
+      `,
     },
 
     {
+      anchor: 'armin',
       image: '/static/images/speakers/armin.jpg',
       link: 'https://github.com/Krule',
       name: 'Armin Pašalić',
@@ -194,10 +208,11 @@ const store = {
           current state. Once this is clear, one starts to wonder, is there a
           beneficial way to utilize this fact?
         </p>
-      `
+      `,
     },
 
     {
+      anchor: 'radoslav',
       image: '/static/images/speakers/rado.jpg',
       link: 'https://rstankov.com',
       name: 'Radoslav Stankov',
@@ -218,10 +233,11 @@ const store = {
           problems in a Rails application. How to make sure your background
           workers run without issues and how to debug exceptions
         </p>
-      `
+      `,
     },
 
     {
+      anchor: 'jan',
       image: '/static/images/speakers/jan.jpg',
       link: 'https://jan.krutisch.de',
       name: 'Jan Krutisch',
@@ -257,14 +273,15 @@ const store = {
           things you can do with Ruby outside of the “Web Development” or even
           the “Scripting Chainsaw” box.
         </p>
-      `
+      `,
     },
 
     {
+      anchor: 'serdar',
       image: '/static/images/speakers/sedar.jpg',
       link: 'https://github.com/sdogruyol',
       name: 'Serdar Doğruyol',
-      company: 'Self',
+      company: '',
       bio: `
         <p>
           Rubyist, Crystal Evangelist, Creator of Kemal – a lightning fast, super
@@ -276,10 +293,11 @@ const store = {
         <p>
           I love Ruby! So do we! Let's take a look at Crystal, the younger sibling of Ruby, as Matz said. :-)
         </p>
-      `
+      `,
     },
 
     {
+      anchor: 'nynne',
       image: '/static/images/speakers/nynne.jpg',
       link: 'https://github.com/nynnejc',
       name: 'Nynne Just Christoffersen',
@@ -325,10 +343,11 @@ const store = {
           appreciative of the many challenges faced by cultural institutions today. With
           this talk I'd love to share my findings.
         </p>
-      `
+      `,
     },
 
     {
+      anchor: 'piotr',
       image: '/static/images/speakers/piotr.jpg',
       link: 'https://chastell.net',
       name: 'Piotr Szotkowski',
@@ -369,10 +388,11 @@ const store = {
           easily can we harness the power of Crystal, Rust, C or even assembly from
           within our Ruby applications?
         </p>
-      `
+      `,
     },
 
     {
+      anchor: 'sameer',
       image: '/static/images/speakers/vodro.jpg',
       link: 'http://v0dro.in',
       name: 'Sameer Deshmukh',
@@ -411,7 +431,7 @@ const store = {
           implicitly using the CRuby C API in a manner that is completely transparent to
           the programmer.
         </p>
-      `
+      `,
     },
   ],
 
@@ -436,7 +456,7 @@ const store = {
           </p>
         `,
         link: 'https://www.emerchantpay.com/',
-        image: '/static/images/sponsors/emerchantpay_logo.svg',
+        image: '/static/images/sponsors/emerchantpay-logo.svg',
       },
 
       {
@@ -453,7 +473,7 @@ const store = {
             Rails users and extremely proud sponsors of Balkan Ruby.
           </p>
         `,
-        image: '/static/images/sponsors/receipt_bank_logo.svg',
+        image: '/static/images/sponsors/receiptbank-logo.svg',
         link: 'https://www.receipt-bank.com/',
       },
     ],
@@ -461,40 +481,17 @@ const store = {
     speaker: [
       {
         title: 'GitHub',
-        description: `
-          <p>
-            GitHub is a development platform inspired by the way you work. From open source
-            to business, you can host and review code, manage projects, and build software
-            alongside millions of other developers.
-          <p>
-        `,
         link: 'https://www.emerchantpay.com/',
-        image: '/static/images/sponsors/github_logo.png',
+        image: '/static/images/sponsors/github-logo.svg',
       },
       {
         title: 'Rebased',
-        description: `
-          <p>
-            Looking for top-notch Ruby and JavaScript programmers? <br> Choose
-            world-class developers with impressive open-source record. Choose direct
-            communication over managemental overhead. Choose paying for actual work
-            done.
-          </p>
-        `,
-        image: '/static/images/sponsors/rebased_logo_full.png',
+        image: '/static/images/sponsors/rebased-logo.png',
         link: 'https://rebased.pl/',
       },
       {
         title: 'RenderedText',
-        description: `
-          <p>
-            Rendered Text is a software company making <a
-            href="https://semaphoreci.com">Semaphore</a>, a continuous delivery service at
-            the forefront of an ongoing evolution in software development practice. We
-            optimize what we do for happiness of our users and ourselves.
-          </p>
-        `,
-        image: '/static/images/sponsors/renderedtext_logo.png',
+        image: '/static/images/sponsors/renderedtext-logo.png',
         link: 'https://renderedtext.com/',
       },
     ]

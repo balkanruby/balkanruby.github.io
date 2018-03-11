@@ -23,6 +23,7 @@ import Slider from '../patterns/Slider';
 import ThumbFeed from '../patterns/ThumbFeed';
 import Cta from '../patterns/Cta';
 import PartnerFeed from '../patterns/PartnerFeed';
+import PartnerLogos from '../patterns/PartnerLogos';
 
 export default () => (
   <Layout>
@@ -58,6 +59,10 @@ export default () => (
 
     <Pattern title="Partner Feed" description="Used for sponsors">
       <PartnerFeed />
+    </Pattern>
+
+    <Pattern title="Partner Logos" description="Used for sponsors">
+      <PartnerLogos />
     </Pattern>
 
     <Pattern title="Lead Image" description="">

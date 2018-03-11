@@ -19,7 +19,6 @@ const Thumb = ({ title, description, link, image }) => (
 const PatnerFeed = ({ list, type }) => (
   <div className="partner-feed">
     <div className="container">
-      <h2>{type} Partners</h2>
       {list.map((item, idx) =>
         <Thumb key={idx} {...item} />
       )}

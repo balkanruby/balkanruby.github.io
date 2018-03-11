@@ -4,7 +4,6 @@ import ArticleList from '../patterns/ArticleList';
 import LeadImageDark from '../patterns/LeadImageDark';
 import Text from '../patterns/Text';
 import SectionTitle from '../patterns/SectionTitle';
-import Speaker from '../patterns/Speaker';
 import Speakers from '../patterns/Speakers';
 import Navigation from '../patterns/Navigation';
 import Newsletter from '../patterns/Newsletter';
@@ -68,20 +67,11 @@ export default () => (
 
     <br/>
 
-    <Speakers theme="blank" spacing="spacing-bottom">
-      {store.speakers.map((speaker, idx) =>
-        <Speaker
-          key={idx}
-          name={speaker.name}
-          link={`/speakers#${idx}`}
-          avatar={speaker.image}
-        >
-          <p>{speaker.talk}</p>
-        </Speaker>
-      )}
-    </Speakers>
+    <Container theme="blank" spacing="spacing-bottom">
+      <Speakers list={store.speakers} />
+    </Container>
 
-    <Container theme="blank" spacing="spacing-both">
+    <Container theme="blank" spacing="spacing-bottom">
       <div className="container">
         <div className="grid">
           <div className="shift-2">
@@ -113,7 +103,7 @@ export default () => (
           <div className="article-list">
             <div className="article">
               <h3>
-                <a href="/blog/introducing-generator">The Venue</a>
+                <a href="/blog/introducing-generator">Introducing Generator: Our Venue</a>
               </h3>
               <div className="meta">
                 by{' '}

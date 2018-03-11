@@ -6,6 +6,8 @@ import PageTitle from '../patterns/PageTitle';
 import PartnerFeed from '../patterns/PartnerFeed';
 import Cta from '../patterns/Cta';
 import Text from '../patterns/Text';
+import PartnerLogos from '../patterns/PartnerLogos';
+
 import store from '../store.js';
 
 const CTA = {
@@ -31,8 +33,12 @@ export default () => (
       <PartnerFeed list={store.sponsors.pro} type="Pro" />
     </Container>
 
+    <Container theme="blank" spacing="spacing-top">
+      <Text centered text="<h3>Thanks to</h3>" />
+    </Container>
+
     <Container theme="blank" spacing="spacing-both">
-      <PartnerFeed list={store.sponsors.speaker} type="Speaker" />
+      <PartnerLogos list={store.sponsors.speaker} />
     </Container>
 
     <Container theme="light-bg" spacing="spacing-both">

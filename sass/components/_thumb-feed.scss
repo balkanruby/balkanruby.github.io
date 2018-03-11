@@ -4,13 +4,15 @@
     display: block;
     position: relative;
     top: 10px;
+    border: 1px solid $lighter-gray;
   }
 
   p:last-child { margin-bottom: 0; }
 
   .meta {
     margin-bottom: $gutter;
-    font-size: .85em;
+
+    a { color: $gray; }
   }
 
   .thumb {

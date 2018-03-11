@@ -1,15 +1,12 @@
-const FaqElement = ({ question, answer }) => (
-  <div className="eight">
-    <h3>{question}</h3>
-    <div dangerouslySetInnerHTML={{ __html: answer }} />
-  </div>
-);
-
 const Faq = ({ list }) => (
-  <div className="partner-feed">
+  <div className="faq">
     <div className="container">
       {list.map((item, idx) =>
-        <FaqElement key={idx} {...item} />)}
+        <div className="faq-item">
+          <h4>{item.question}</h4>
+          <div dangerouslySetInnerHTML={{ __html: item.answer }} />
+        </div>
+      )}
     </div>
   </div>
 );
