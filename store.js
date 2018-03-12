@@ -476,6 +476,20 @@ const store = {
         image: '/static/images/sponsors/receiptbank-logo.svg',
         link: 'https://www.receipt-bank.com/',
       },
+      {
+        title: 'Catawiki',
+        description: `
+          <p>
+            Catawiki's mission is to make special items available to everyone and we are one of the fastest growing
+            companies in Europe. Our Online auction website attracts 14 million monthly users from around the globe
+            to participate in weekly auctions across a variety of categories for special objects. The items we have
+            auctioned off include a lock of Napoleon’s hair, a mammoth skeleton and the most expensive set of Lego
+            ever produced! And yes, it's true, we use Ruby to sell Rubies!
+          </p>
+        `,
+        image: '/static/images/sponsors/catawiki-logo.svg',
+        link: 'https://www.catawiki.com/',
+      },
     ],
 
     speaker: [
