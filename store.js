@@ -17,7 +17,7 @@ const store = {
           <a href="https://dockbit.com">Dockbit</a>.
         </p>
       `,
-      talk: 'Keynote',
+      talk: 'UTC is Enough for Everybody, Right?',
       description: `
         <p>Coming soon. </p>
       `,
