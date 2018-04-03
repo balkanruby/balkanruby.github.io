@@ -495,7 +495,7 @@ const store = {
     speaker: [
       {
         title: 'GitHub',
-        link: 'https://www.emerchantpay.com/',
+        link: 'https://github.com/',
         image: '/static/images/sponsors/github-logo.svg',
       },
       {
@@ -507,6 +507,11 @@ const store = {
         title: 'RenderedText',
         image: '/static/images/sponsors/renderedtext-logo.png',
         link: 'https://renderedtext.com/',
+      },
+      {
+        title: 'Karnov Group',
+        image: '/static/images/sponsors/karnov_group_logo.svg',
+        link: 'http://www.karnovgroup.com/',
       },
     ]
   }
