@@ -492,6 +492,21 @@ const store = {
       },
     ],
 
+    standard: [
+      {
+        title: 'Strypes',
+        description: `
+          <p>
+            With a team of over 170 people Strypes is a company with extensive experience in the software development.
+            Founded in 2008, currently the company is a proud member of the ICT Group in the Netherlands.
+            The ICT Group is a stock listed IT company that was founded in 1978 and employs over 1000 professionals worldwide.
+          </p>
+        `,
+        image: '/static/images/sponsors/strypes-logo.png',
+        link: 'https://strypes.eu/',
+      },
+    ],
+
     speaker: [
       {
         title: 'GitHub',

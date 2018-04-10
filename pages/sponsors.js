@@ -33,6 +33,10 @@ export default () => (
       <PartnerFeed list={store.sponsors.pro} type="Pro" />
     </Container>
 
+    <Container theme="blank" spacing="spacing-both">
+      <PartnerFeed list={store.sponsors.standard} type="Standard" />
+    </Container>
+
     <Container theme="blank" spacing="spacing-top">
       <Text centered text="<h3>Thanks to</h3>" />
     </Container>
