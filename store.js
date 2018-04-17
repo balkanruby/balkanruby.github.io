@@ -499,6 +499,28 @@ const store = {
         image: '/static/images/sponsors/catawiki-logo.svg',
         link: 'https://www.catawiki.com/',
       },
+      {
+        title: 'Funding Circle',
+        description: `
+          <p>
+            At Funding Circle we’re changing the world. We are the world’s leading marketplace for business loans
+            and we’re taking on the global banking system to find a better way for businesses to borrow and investors
+            to lend, by connecting them together. We are helping small businesses to grow, creating thousands of jobs
+            across the UK, US, DE and NL, changing the lives of business owners, and at the same time helping investors
+            earn a return on their hard-earned money.
+          </p>
+
+          <p>
+            We’re one of the fastest growing startups in the world with teams in London, San Francisco and Europe,
+            and more than $300 million raised from the same people who backed Twitter, Facebook and Skype. We have
+            a unique working environment and incredible teams as we seek to change the face of one of the biggest
+            industries in the world – banking – as well as help to solve some of the biggest challenges the global
+            economy faces.
+          </p>
+        `,
+        image: '/static/images/sponsors/funding-circle-logo.svg',
+        link: 'https://www.fundingcircle.com/uk/',
+      },
     ],
 
     standard: [
@@ -536,6 +558,11 @@ const store = {
         title: 'Karnov Group',
         image: '/static/images/sponsors/karnov_group_logo.svg',
         link: 'http://www.karnovgroup.com/',
+      },
+      {
+        title: 'Questers',
+        image: '/static/images/sponsors/questers-logo.svg',
+        link: 'https://www.questers.com/',
       },
     ]
   }
