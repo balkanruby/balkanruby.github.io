@@ -556,7 +556,7 @@ const store = {
       },
       {
         title: 'Karnov Group',
-        image: '/static/images/sponsors/karnov_group_logo.svg',
+        image: '/static/images/sponsors/karnovgroup-logo.png',
         link: 'http://www.karnovgroup.com/',
       },
       {
