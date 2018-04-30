@@ -12,10 +12,6 @@ import store from '../store';
 const NAV = {
   list: [
     {
-      label: 'Venue',
-      link: '/blog/introducing-generator',
-    },
-    {
       label: 'Speakers',
       link: '/speakers',
     },
@@ -27,6 +23,10 @@ const NAV = {
       label: 'Blog',
       link: '/blog',
     },
+    {
+      label: 'Venue',
+      link: '/blog/introducing-generator',
+    }
   ],
 };
 
