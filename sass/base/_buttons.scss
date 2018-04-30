@@ -88,3 +88,8 @@
     // border-color: transparent;
   }
 }
+
+button:disabled,
+input:disabled {
+  cursor: not-allowed;
+}

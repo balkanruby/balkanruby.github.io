@@ -37,7 +37,7 @@ export default () => (
         <div className="hero">
           <img src="/static/assets/balkanruby-header-logo.svg" alt="Balkan Ruby" className="logo" />
           <p>25 – 26 May 2018; Sofia, Bulgaria</p>
-          <a href="/tickets" className="btn-primary lg">Tickets</a>
+          <button disabled className="btn-primary lg">SOLD OUT</button>
         </div>
 
         <div className="video-container">
