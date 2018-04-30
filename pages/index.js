@@ -144,19 +144,5 @@ export default () => (
         </div>
       </div>
     </Container>
-
-    <Container theme="purple-bg" spacing="spacing-both" id="newsletter">
-      <div className="container">
-        <div className="grid">
-          <div className="shift-2">
-            <div className="section-title">
-              <h2>Subscribe for news</h2>
-            </div>
-          </div>
-        </div>
-      </div>
-    </Container>
-
-    <Newsletter />
   </Layout>
 );
