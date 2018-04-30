@@ -27,10 +27,6 @@ const NAV = {
       label: 'Blog',
       link: '/blog',
     },
-    {
-      label: 'Tickets',
-      link: '/tickets'
-    }
   ],
 };
 
