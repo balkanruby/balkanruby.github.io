@@ -7,6 +7,8 @@ import SectionTitle from '../patterns/SectionTitle';
 import Speakers from '../patterns/Speakers';
 import Navigation from '../patterns/Navigation';
 import Newsletter from '../patterns/Newsletter';
+import PartnerLogos from '../patterns/PartnerLogos';
+import Heading from '../patterns/Heading';
 import store from '../store';
 
 const NAV = {
@@ -53,17 +55,7 @@ export default () => (
       <Navigation {...NAV} />
     </Container>
 
-    <Container id="speakers" theme="blank" spacing="spacing-both" container>
-      <div className="container">
-        <div className="grid">
-          <div className="shift-2">
-            <div className="section-title">
-              <h2>Speakers</h2>
-            </div>
-          </div>
-        </div>
-      </div>
-    </Container>
+    <Heading name="Speakers" />
 
     <br/>
 
@@ -71,21 +63,9 @@ export default () => (
       <Speakers list={store.speakers} />
     </Container>
 
-    <Container theme="light-bg" spacing="spacing-both">
-      <div className="container">
-        <div className="grid">
-          <div className="shift-2">
-            <div className="section-title">
-              <br/>
-              <h2>Blog</h2>
-              <br/>
-            </div>
-          </div>
-        </div>
-      </div>
-    </Container>
-
     <Container theme="light-bg" spacing="spacing-bottom">
+      <Heading name="Blog" />
+
       <div className="container">
         <div className="grid">
           <div className="article-list">
@@ -143,6 +123,24 @@ export default () => (
           </div>
         </div>
       </div>
+    </Container>
+
+    <Heading name="Partners" />
+
+    <Container theme="blank" spacing="spacing-both">
+      <PartnerLogos list={store.sponsors.pro} />
+    </Container>
+
+    <Container theme="blank" spacing="spacing-both">
+      <PartnerLogos list={store.sponsors.standard} />
+    </Container>
+
+    <Container theme="blank" spacing="spacing-top">
+      <Text centered text="<h3>Thanks to</h3>" />
+    </Container>
+
+    <Container theme="blank" spacing="spacing-both">
+      <PartnerLogos list={store.sponsors.speaker} />
     </Container>
   </Layout>
 );
