@@ -7,6 +7,7 @@ import ThumbFeed from '../patterns/ThumbFeed';
 import store from '../store';
 
 const speakers = store.speakers.map(speaker => ({
+  anchor: speaker.anchor,
   image: speaker.image,
   link: speaker.link,
   title: speaker.name,
