@@ -1,7 +1,11 @@
-const Text = ({ text, centered }) => (
+const Text = ({ text, centered, children }) => (
   <div className="container">
     <div className="grid">
-      <div className={`text ${centered ? 'align-center' : ''}`} dangerouslySetInnerHTML={{ __html: text }} />
+      {text
+        ? <div className={`text ${centered ? 'align-center' : ''}`} dangerouslySetInnerHTML={{ __html: text }} />
+        : <div className={`text ${centered ? 'align-center' : ''}`}>
+            <div className="text">{children}</div>
+          </div>}
     </div>
   </div>
 );

@@ -32,6 +32,23 @@ export default () => (
           <div className="article-list">
             <div className="article">
               <h3>
+                <a href="/blog/community-tickets">Community Tickets</a>
+              </h3>
+              <div className="meta">
+                by{' '}
+                <a href="https://twitter.com/gsamokovarov" target="_blank">
+                  Genadi
+                </a>
+              </div>
+              <p>
+                We may be sold out, but we have saved a few tickets to give away for free!
+              </p>
+            </div>
+          </div>
+
+          <div className="article-list">
+            <div className="article">
+              <h3>
                 <a href="/blog/introducing-generator">The Venue</a>
               </h3>
               <div className="meta">
