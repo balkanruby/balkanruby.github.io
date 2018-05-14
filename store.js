@@ -438,15 +438,15 @@ const store = {
   sponsors: {
     pro: [
       {
-        title: 'eMerchantPay',
+        title: 'emerchantpay',
         description: `
           <p>
-            eMerchantPay is a leading online, mobile and POS payment service
+            emerchantpay is a leading online, mobile and POS payment service
             provider. We help e-commerce businesses of all sizes and sectors accept
             payments via multiple customer touch points. Designed to increase conversions,
             our offering includes robust payment processing technology, coupled with
             popular alternative payment methods and a range of acquiring services.
-            eMerchantPay Limited is registered as an authorised Electronic Money
+            emerchantpay Limited is registered as an authorised Electronic Money
             Institution (EMI) and has the FCA’s permission to issue electronic money
             (e-money) and provide payment services under registration number <a
             href="https://register.fca.org.uk/ShPo_FirmDetailsPage?id=001b000003jN1U9AAK">900778</a>.
