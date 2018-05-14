@@ -2,7 +2,7 @@ const PartnerLogos = ({ list }) => (
   <div className="partner-logos">
     <div className="container">
       {list.map((logo, idx) =>
-        <a href={logo.link} title={logo.title} target="_blank">
+        <a href={logo.link} title={logo.title} target="_blank" className="partner-logo">
           <img src={logo.image} alt={logo.title} />
         </a>
       )}
