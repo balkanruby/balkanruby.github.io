@@ -1,108 +1,30 @@
 const store = {
   schedule: [
-    {
-      description: 'FRIDAY',
-      type: 'info'
-    },
-    {
-      time: '9:00',
-      description: 'Registration and morning coffee',
-      type: 'break'
-    },
-    {
-      time: '10:00',
-      description: 'UTC is Enough for Everybody, Right?',
-      author: 'zach',
-    },
-    {
-      time: '10:50',
-      description: 'GraphQL',
-      author: 'robert',
-    },
-    {
-      time: '11:40',
-      author: 'gabriela',
-    },
-    {
-      time: '12:20',
-      description: 'Lunch',
-      type: 'break'
-    },
-    {
-      time: '14:30',
-      author: 'piotr',
-    },
-    {
-      time: '15:20',
-      author: 'dinah',
-    },
-    {
-      time: '16:00',
-      description: 'Coffee break',
-      type: 'break'
-    },
-    {
-      time: '16:30',
-      author: 'marko',
-    },
-    {
-      time: '17:20',
-      description: 'Lightning talks'
-    },
-    {
-      time: '18:10',
-      author: 'vladimir',
-    },
-    {
-      description: 'SATURDAY',
-      type: 'info'
-    },
-    {
-      time: '9:00',
-      description: 'Morning coffee',
-    },
-    {
-      time: '10:00',
-      author: 'radoslav',
-    },
-    {
-      time: '10:50',
-      author: 'armin',
-    },
-    {
-      time: '11:40',
-      author: 'sameer',
-    },
-    {
-      time: '12:20',
-      description: 'Lunch',
-      type: 'break'
-    },
-    {
-      time: '14:30',
-      author: 'jan',
-    },
-    {
-      time: '15:20',
-      author: 'serdar',
-    },
-    {
-      time: '16:00',
-      description: 'Coffee break',
-      type: 'break'
-    },
-    {
-      time: '16:30',
-      author: 'nynne',
-    },
-    {
-      time: '17:20',
-      description: 'Panel Discussions with Bozhidar Batsov and Nick Sutterer'
-    },
-    {
-      time: '18:10',
-      author: 'nick'
-    }
+    { description: 'FRIDAY', type: 'info' },
+    { time: '9:00', description: 'Registration and morning coffee', type: 'break' },
+    { time: '10:00', description: 'UTC is Enough for Everybody, Right?', author: 'zach', },
+    { time: '10:50', description: 'GraphQL', author: 'robert', },
+    { time: '11:40', author: 'gabriela', },
+    { time: '12:20', description: 'Lunch', type: 'break' },
+    { time: '14:30', author: 'piotr', },
+    { time: '15:20', author: 'dinah', },
+    { time: '16:00', description: 'Coffee break', type: 'break' },
+    { time: '16:30', author: 'marko', },
+    { time: '17:20', description: 'Panel discussions with Bozhidar Batsov' },
+    { time: '18:10', author: 'vladimir', },
+
+    { description: 'SATURDAY', type: 'info' },
+    { time: '9:00', description: 'Morning coffee', },
+    { time: '10:00', author: 'radoslav', },
+    { time: '10:50', author: 'armin', },
+    { time: '11:40', author: 'sameer', },
+    { time: '12:20', description: 'Lunch', type: 'break' },
+    { time: '14:30', author: 'jan', },
+    { time: '15:20', author: 'serdar', },
+    { time: '16:00', description: 'Coffee break', type: 'break' },
+    { time: '16:30', author: 'nynne', },
+    { time: '17:20', description: 'Lightning talks' },
+    { time: '18:10', author: 'nick' }
   ],
 
   speakers: [

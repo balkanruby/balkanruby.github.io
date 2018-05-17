@@ -14,6 +14,10 @@ import store from '../store';
 const NAV = {
   list: [
     {
+      label: 'Schedule',
+      link: '/schedule',
+    },
+    {
       label: 'Speakers',
       link: '/speakers',
     },

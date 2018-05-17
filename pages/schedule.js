@@ -10,14 +10,14 @@ const schedule = store.schedule.map(event => (
   {
     type: event.type,
     time: event.time,
-    description: build_description(event, store.speakers),
-    speaker_name: find_speaker_name(event, store.speakers),
-    speaker_anchor: find_speaker_anchor(event, store.speakers)
+    description: buildDescription(event, store.speakers),
+    speaker_name: findSpeakerName(event, store.speakers),
+    speaker_anchor: findSpeakerAnchor(event, store.speakers)
   }
 ));
 
-function find_speaker_anchor(event, speakers) {
-  var speaker = find_speaker(event, speakers);
+function findSpeakerAnchor(event, speakers) {
+  var speaker = findSpeaker(event, speakers);
 
   if (speaker) {
     return speaker.anchor;
@@ -26,8 +26,8 @@ function find_speaker_anchor(event, speakers) {
   }
 }
 
-function build_description(event, speakers) {
-  var speaker = find_speaker(event, speakers);
+function buildDescription(event, speakers) {
+  var speaker = findSpeaker(event, speakers);
 
   if (speaker) {
     return speaker.talk;
@@ -36,8 +36,8 @@ function build_description(event, speakers) {
   }
 }
 
-function find_speaker_name(event, speakers) {
-  var speaker = find_speaker(event, speakers);
+function findSpeakerName(event, speakers) {
+  var speaker = findSpeaker(event, speakers);
 
   if (speaker) {
     return speaker.name;
@@ -46,7 +46,7 @@ function find_speaker_name(event, speakers) {
   }
 }
 
-function find_speaker(event, speakers) {
+function findSpeaker(event, speakers) {
   return speakers.find(speaker => (speaker.anchor === event.author));
 }
 

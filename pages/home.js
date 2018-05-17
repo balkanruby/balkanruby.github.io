@@ -22,10 +22,7 @@ export default () => (
               </div>
 
               <div className="btn-wrapper">
-                <a
-                  href="https://goo.gl/forms/uvxE2CR7I3fwYCtl2"
-                  className="btn-primary lg"
-                >
+                <a href="https://goo.gl/forms/uvxE2CR7I3fwYCtl2" className="btn-primary lg">
                   Submit a talk
                 </a>
               </div>

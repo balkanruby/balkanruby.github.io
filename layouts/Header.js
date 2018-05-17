@@ -11,6 +11,7 @@ export default () => (
           </a>
 
           <nav className="lead-navigation">
+            <a href="/schedule">Schedule</a>
             <a href="/speakers">Speakers</a>
             <a href="/sponsors">Partners</a>
             <a href="/blog">Blog</a>
