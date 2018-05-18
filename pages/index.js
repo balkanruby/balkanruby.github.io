@@ -9,7 +9,9 @@ import Navigation from '../patterns/Navigation';
 import Newsletter from '../patterns/Newsletter';
 import PartnerLogos from '../patterns/PartnerLogos';
 import Heading from '../patterns/Heading';
+import Schedule from '../patterns/Schedule';
 import store from '../store';
+import schedule from '../schedule';
 
 const NAV = {
   list: [
@@ -57,6 +59,12 @@ export default () => (
 
     <Container theme="light-bg" spacing="none">
       <Navigation {...NAV} />
+    </Container>
+
+    <Heading name="Schedule" />
+
+    <Container theme="blank" spacing="spacing-both">
+      <Schedule list={schedule} />
     </Container>
 
     <Heading name="Speakers" />
