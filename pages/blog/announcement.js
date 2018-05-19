@@ -83,7 +83,7 @@ export default () => (
               </a>{' '}
               until <b>14th of February</b> and we welcome you to send your
               proposals. The topics should gravitate around Ruby. We like
-              everything weird, technical, and social. Balkan Ruby is a great
+              everything <a className="dark" href="/blog/tnemecnuonna">weird</a>, technical, and social. Balkan Ruby is a great
               opportunity to visit Sofia and present in front of like-minded
               developers.
             </p>
@@ -107,10 +107,7 @@ export default () => (
           <div className="content-container align-center">
             <div className="container">
               <div className="btn-wrapper">
-                <a
-                  href="https://goo.gl/forms/uvxE2CR7I3fwYCtl2"
-                  className="btn-primary lg"
-                >
+                <a href="https://goo.gl/forms/uvxE2CR7I3fwYCtl2" className="btn-primary lg" >
                   Submit a talk
                 </a>
               </div>

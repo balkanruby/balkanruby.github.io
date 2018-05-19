@@ -34,7 +34,7 @@ export default () => (
             <h2>What are we looking for?</h2>
 
             <p>
-            The conference will run on a single track. We are looking for 14 talks and few trainings, given there is enough interest. The length of a talk should be from 30 to 40 minutes with a topic about Ruby, satellite technologies, community or weird. Boy, oh boy… do we like weird! C'mon, it is Ruby, it’s in our blood!
+            The conference will run on a single track. We are looking for 14 talks and few trainings, given there is enough interest. The length of a talk should be from 30 to 40 minutes with a topic about Ruby, satellite technologies, community or <a className="dark" href="/blog/emit-pfc">weird</a>. Boy, oh boy… do we like <a className="dark" href="/blog/emit-pfc">weird</a>! C'mon, it is Ruby, it’s in our blood!
             </p>
 
             <p>
@@ -64,7 +64,6 @@ export default () => (
               <a href="https://goo.gl/forms/uvxE2CR7I3fwYCtl2" class="btn-primary lg">Submit a talk</a>
             </p>
             <br/>
-
           </div>
         </div>
       </div>

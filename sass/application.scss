@@ -25,3 +25,11 @@ body {
     h3 { font-size: 1.414em; }
   }
 }
+
+.darkside > * {
+  filter: invert(100%);
+}
+
+a.dark {
+  text-decoration: none;
+}
