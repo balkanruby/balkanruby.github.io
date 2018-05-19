@@ -30,7 +30,7 @@ export default () => (
             <p>
               Have you ever <em>really</em> wished for something, only for it to become true? We
               were supposed to chase this McGuffin of ours for eternity and now, Balkan Ruby
-              out of the intelligible realm of them forms.
+              is out of the intelligible realm of them forms.
             </p>
 
             <p>&ldquo;Abe Momcheta&hellip;&rdquo; Vesti said &ldquo;How does ownership work across dimensions?&rdquo;</p>
