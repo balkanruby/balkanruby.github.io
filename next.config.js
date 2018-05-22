@@ -9,6 +9,7 @@ module.exports = {
       '/blog/emit-pfc': { page: '/blog/emit-pfc' },
       '/blog/introducing-generator': { page: '/blog/introducing-generator' },
       '/blog/community-tickets': { page: '/blog/community-tickets' },
+      '/blog/welcome-to-sofia': { page: '/blog/welcome-to-sofia' },
       '/schedule': { page: '/schedule' },
       '/sponsors': { page: '/sponsors' },
       '/speakers': { page: '/speakers' },

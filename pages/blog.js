@@ -32,6 +32,24 @@ export default () => (
           <div className="article-list">
             <div className="article">
               <h3>
+                <a href="/blog/welcome-to-sofia">Welcome to Sofia</a>
+              </h3>
+              <div className="meta">
+                by{' '}
+                <a href="https://twitter.com/SvetlioMihailov" target="_blank">
+                  Svetlozar
+                </a>
+              </div>
+              <p>
+                Balkan Ruby is this Friday and we want to welcome you late sprong Sofia!
+                We're going to talk about the local currency, how to get to the venue and sightseeing in Sofia.
+              </p>
+            </div>
+          </div>
+
+          <div className="article-list">
+            <div className="article">
+              <h3>
                 <a href="/blog/community-tickets">Community Tickets</a>
               </h3>
               <div className="meta">
