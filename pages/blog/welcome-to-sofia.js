@@ -35,7 +35,7 @@ export default () => (
       <div className="container">
         <div className="grid">
           <div className="text">
-            Balkan Ruby is this Friday and we want to welcome you late spring Sofia!
+            Balkan Ruby is this Friday and we want to welcome you to late sprong Sofia!
             We're going to talk about the local currency, how to get to the venue and sightseeing in Sofia.
           </div>
         </div>
@@ -49,10 +49,10 @@ export default () => (
             <h2>Currency</h2>
 
             <p>
-              While Bulgaria is in the EU, it's hasn't adopted the Euro. Our currency is
+              While Bulgaria is in the EU, it has not adopted the Euro. Our currency is
               called Bulgarian Lev and is bound to the Euro around the rate of 1.96 Leva for
               1 Euro. Most of our ATMs support Visa and MasterCard and they can be your
-              easier way to get levs. If you have America Express, you may try converting
+              easier way to get levs. If you have America Express, you may try exchanging
               money in a bank.
             </p>
           </div>
@@ -93,7 +93,7 @@ export default () => (
               The conference venue, Generator Sofia is on the blue line. If you are coming
               directly from the airport, you should change at Serdika station (<span
               style={redLineStyle}>red</span>) and take the train in the <span>Lozenets</span>
-              (<span style={blueLineStyle}>blue</span>) direction. You will need to get at the
+              (<span style={blueLineStyle}>blue</span>) direction. You will need to get off at
               station <a target="_blank" href="https://www.google.com/maps/place/Vitosha+Metro+Station/@42.6594738,23.3142288,17z/data=!3m1!4b1!4m5!3m4!1s0x40aa845c18dd07cd:0x10131a6f5bd24570!8m2!3d42.6594738!4d23.3164175">
                 Vitosha
               </a>, that's the closest one to Generator.
