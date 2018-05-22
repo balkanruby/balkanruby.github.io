@@ -35,7 +35,7 @@ export default () => (
       <div className="container">
         <div className="grid">
           <div className="text">
-            Balkan Ruby is this Friday and we want to welcome you late sprong Sofia!
+            Balkan Ruby is this Friday and we want to welcome you late spring Sofia!
             We're going to talk about the local currency, how to get to the venue and sightseeing in Sofia.
           </div>
         </div>

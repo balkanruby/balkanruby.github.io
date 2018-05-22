@@ -41,7 +41,7 @@ export default () => (
                 </a>
               </div>
               <p>
-                Balkan Ruby is this Friday and we want to welcome you late sprong Sofia!
+                Balkan Ruby is this Friday and we want to welcome you late spring Sofia!
                 We're going to talk about the local currency, how to get to the venue and sightseeing in Sofia.
               </p>
             </div>
