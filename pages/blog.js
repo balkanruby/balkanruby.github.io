@@ -45,9 +45,7 @@ export default () => (
                 We're going to talk about the local currency, how to get to the venue and sightseeing in Sofia.
               </p>
             </div>
-          </div>
 
-          <div className="article-list">
             <div className="article">
               <h3>
                 <a href="/blog/community-tickets">Community Tickets</a>
@@ -62,9 +60,7 @@ export default () => (
                 We may be sold out, but we have saved a few tickets to give away for free!
               </p>
             </div>
-          </div>
 
-          <div className="article-list">
             <div className="article">
               <h3>
                 <a href="/blog/introducing-generator">The Venue</a>
